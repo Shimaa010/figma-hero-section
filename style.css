@@ -94,6 +94,49 @@ li{
     background-size: cover;
 }
 
+@media   (max-width:768px) {
+    
+    .container{
+        width: 400px;
+        margin: auto;
+    }
+    nav{
+        width: 100%;
+        padding: 10px 30px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        
+    }
+    nav ul{
+        display: none;
+    }
+    nav ul .btn{
+        display: flex;
+        width: 100px;
+        height: 30px;
+        margin: 0;
+    }
+    .container .hero{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-left{
+        width: 400px;
+        height:400px ;
+        padding: 5px 20px;
+
+    }
+    .hero-right{
+        width: 400px;
+        height:500px ;
+      margin: 10px 20px;
+    }
+}
+
 
 
 
