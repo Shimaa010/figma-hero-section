@@ -1,1 +1,1 @@
-# this is my first project with Gethup
+# this is my first project with Gethub
